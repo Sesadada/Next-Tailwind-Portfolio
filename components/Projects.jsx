@@ -8,6 +8,7 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <div
+      id="projects"
       className="w-full
     "
     >
