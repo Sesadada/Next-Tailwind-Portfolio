@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
+    <div className="w-full md:h-screen p-2 flex justify-center items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
@@ -30,13 +30,12 @@ const About = () => {
             Check out my latest projects
           </p>
         </div>
-        <div className="ease-out duration-300 flex items-center justify-center p-4 md:mt-36 lg:mt-8">
+        <div className="md:w-64 md:h-64 md:mt-28 m-auto mt-8 w-96 h-96 relative flex items-center justify-center shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
           <Image
-            className="ease-out duration-300 cursor-pointer hover:scale-105 p-4"
+            className="cursor-pointer rounded-xl"
             src="https://res.cloudinary.com/sato-sato/image/upload/ar_1.0,c_fill,g_face/v1593377833/videothumbnails/YOLATENGO-TN_vhbdal.jpg"
-            alt="Galaxy"
-            width="360"
-            height="360"
+            alt="Portrait"
+            layout="fill"
           />
         </div>
       </div>
