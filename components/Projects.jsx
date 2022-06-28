@@ -22,21 +22,25 @@ const Projects = () => {
             address={netflix}
             name="Netflix App"
             des="React + Firebase + Tailwind"
+            projectUrl="/ProjA"
           />
           <Project
             address={memory}
             name="Memory Game"
             des="Vanilla Javascript + CSS + Webpack"
+            projectUrl="/ProjA"
           />
           <Project
             address={ecommerce}
             name="E-commerce Shop"
             des="React + Instyle CSS"
+            projectUrl="/ProjA"
           />
           <Project
             address={weather}
             name="Weather App"
             des="Vanilla Javascript + CSS + Webpack"
+            projectUrl="/ProjA"
           />
         </div>
       </div>
