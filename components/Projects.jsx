@@ -28,19 +28,19 @@ const Projects = () => {
             address={memory}
             name="Memory Game"
             des="Vanilla Javascript + CSS + Webpack"
-            projectUrl="/ProjA"
+            projectUrl="/ProjB"
           />
           <Project
             address={ecommerce}
             name="E-commerce Shop"
             des="React + Instyle CSS"
-            projectUrl="/ProjA"
+            projectUrl="/ProjC"
           />
           <Project
             address={weather}
             name="Weather App"
             des="Vanilla Javascript + CSS + Webpack"
-            projectUrl="/ProjA"
+            projectUrl="/ProjD"
           />
         </div>
       </div>
